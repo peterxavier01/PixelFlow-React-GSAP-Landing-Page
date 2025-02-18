@@ -4,7 +4,7 @@ import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/all";
 
-import Button from "./Button";
+import Button from "./button";
 
 gsap.registerPlugin(useGSAP, ScrollTrigger);
 
