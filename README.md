@@ -4,6 +4,15 @@
 # Pixel Flow
 
 Captivating, animation-filled landing page inspired by zentry.com
+## Table of Content
+
+- [Tech Stack](#tech-stack)
+- [Screenshots](#screenshots)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
+  
 ## Tech Stack
 
 - **Framework:** React
