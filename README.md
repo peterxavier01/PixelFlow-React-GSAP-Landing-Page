@@ -1,50 +1,50 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![MIT License](https://img.shields.io/badge/License-MIT-blue)](https://choosealicense.com/licenses/mit/)
+![Status]( https://img.shields.io/badge/Status-Running-green)
+# Pixel Flow
 
-Currently, two official plugins are available:
+Captivating, animation-filled landing page inspired by zentry.com
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Framework:** React
 
-## Expanding the ESLint configuration
+- **Styles:** TailwindCSS
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Animation:** GSAP
+## Screenshots
 
-- Configure the top-level `parserOptions` property like this:
+![App Screenshot](./public/screenshot-1.png)
+![App Screenshot](./public/screenshot-2.jpeg)
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## Installation
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/peterxavier01/PixelFlow-React-GSAP-Landing-Page
 ```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+2. Install the necessary dependencies
+```bash
+npm install
 ```
+## Usage
+
+After installation, start the developemnt server
+
+```bash
+npm run dev
+```
+Open your browser and go to http://localhost:5173 to start using PixelFlow
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](https://choosealicense.com/licenses/mit/) file for details.
+
+
+## Acknowledgements
+
+ - [Zentry](https://zentry.com)
+
+
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://peteruadiale.com/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/peter-o-uadiale-69541a19a/)
